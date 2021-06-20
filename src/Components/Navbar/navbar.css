@@ -1,0 +1,68 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Heebo", sans-serif;
+  }
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  padding: 10px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Heebo", sans-serif;
+}
+
+
+.topnav .icon {
+  display: none;
+}
+
+.searchbar {
+    width: 384px;
+    height: 36px;
+    background-color: #F4F4F9;
+    border: black;
+    border-radius: 15px;
+    padding: 10px;
+    outline: none;
+}
+
+.nav-profile {
+    width: 50px;
+    border-radius: 50%;
+    background-image: url("../../Images/profile.jpg");
+    background-size: cover;
+}
+
+@media screen and (min-width: 831px) {
+    .collapse {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .searchbar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .dashboard-icon, .dashboard {
+        font-size: 16px !important;
+    }
+    .profile-name, .profile-icon {
+        font-size: 16px !important;
+    }
+}

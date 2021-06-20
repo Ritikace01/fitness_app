@@ -1,0 +1,13 @@
+.container{
+  text-align: center;
+  align-content: center;
+}
+
+.start-btn {
+  margin-top: 20px;
+  width: 10vw;
+  height: 5vh;
+  border-color: aliceblue;
+  background-color: aqua;
+  border-radius: 20px;
+}
